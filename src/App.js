@@ -19,7 +19,7 @@ function App() {
     <div className="App container portpolio-main-container">
       <div className='col-12 mb-2 d-flex justify-content-end align-items-center'><div className='column-bg-nav'><Navigation /></div></div>
       <div className='row main-container-row'>
-        <div className='col-4'><div className='column-bg'><About /></div></div>
+        <div className='col-4'><div className='column-bg about-section-column'><About /></div></div>
         <div className='col-8'>
         <div className='column-bg'>
         <Routes>

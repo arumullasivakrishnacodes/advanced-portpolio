@@ -1,0 +1,154 @@
+.about-component-container {
+    transform: translateY(-14%);
+}
+
+.profile-image-container {
+    width: 100%;
+    height: 400px;
+    padding: 0 28px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        border: 1px solid whitesmoke;
+        box-shadow: 4px 7px 16px var(--bg-shadow);
+    }
+}
+
+.name-role-connect-container {
+    width: 100%;
+    height: fit-content;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+
+    .name {
+        font-family: var(--font-head);
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .role {
+        font-family: var(--font-albert);
+        font-size: 16px;
+        font-weight: 900;
+        width: fit-content;
+        padding: 10px;
+        background: lightgray;
+        border-radius: 10px;
+    }
+}
+
+.social-connect {
+    column-gap: 26px;
+
+    i {
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .bi-whatsapp {
+        color: var(--primary-green);
+    }
+
+    .bi-instagram {
+        color: var(--primary-burgundy);
+    }
+
+    .bi-twitter {
+        color: var(--primary-blue);
+    }
+
+    .bi-linkedin {
+        color: var(--primary-violet);
+    }
+}
+
+.contact-details-section {
+    flex-direction: column;
+    row-gap: 4px;
+
+    .mobile-contact {
+        width: 100%;
+        background: #d3d3d324;
+        padding: 12px;
+        border-radius: 10px;
+        column-gap: 12px;
+
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            background: var(--white);
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 4px 7px 16px var(--bg-shadow);
+        }
+
+        .bi-phone {
+            color: var(--primary-red);
+        }
+
+        .bi-envelope {
+            color: var(--primary-violet);
+        }
+
+        .bi-geo-fill {
+            color: var(--primary-green);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--primary-burgundy);
+        }
+
+        .static-details {
+            text-align: start;
+
+            p:first-child {
+                font-weight: 700;
+            }
+
+            p {
+                font-family: var(--font-albert);
+            }
+
+            a {
+                font-family: var(--font-albert);
+            }
+        }
+    }
+}
+
+.resume-con {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 60%;
+        height: 100%;
+        background: var(--primary-burgundy);
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        font-size: 20px;
+        border: var(--none);
+        outline: var(--none);
+        border-radius: 10px;
+
+        i {
+            font-size: 18px;
+            color: var(--white);
+        }
+    }
+}

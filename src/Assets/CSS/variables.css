@@ -14,4 +14,10 @@
     /* pseudo elemenst */
 
     --none: none;
+
+
+    /* Font Family */
+
+    --font-albert: "Albert Sans", sans-serif;
+    --font-head: "Headland One", serif;
 }
