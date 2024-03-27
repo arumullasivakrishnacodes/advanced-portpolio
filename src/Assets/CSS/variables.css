@@ -1,0 +1,17 @@
+:root {
+    /* Colors  */
+
+    --bg-shadow: #e8e8e8;
+    --white: #fff;
+    --black: #000;
+    --primary-burgundy: #b5233a;
+    --primary-blue: #1374e9;
+    --primary-orange: #fbc620;
+    --primary-green: #1e9541;
+    --primary-red: #e23628;
+    --primary-violet: #868ce0;
+
+    /* pseudo elemenst */
+
+    --none: none;
+}

@@ -1,0 +1,78 @@
+.Nav-menu-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.single-menu {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--black);
+    text-decoration: var(--none);
+    border-radius: 15px;
+    row-gap: 4px;
+
+    i {
+        font-size: 20px;
+    }
+
+    p {
+        font-family: "Albert Sans", sans-serif;
+    }
+
+    &:hover {
+        background: whitesmoke;
+        border-radius: 15px;
+    }
+
+    &.active {
+        i {
+            color: var(--white);
+        }
+
+        p {
+            color: var(--white);
+        }
+    }
+}
+
+.menu-home {
+    &.active {
+        background: var(--primary-burgundy);
+        box-shadow: 4px 7px 16px var(--primary-burgundy);
+    }
+}
+
+.menu-experience {
+    &.active {
+        background: var(--primary-green);
+        box-shadow: 4px 7px 16px var(--primary-green);
+    }
+}
+
+.menu-skills {
+    &.active {
+        background: var(--primary-orange);
+        box-shadow: 4px 7px 16px var(--primary-orange);
+    }
+}
+
+.menu-certifications {
+    &.active {
+        background: var(--primary-blue);
+        box-shadow: 4px 7px 16px var(--primary-blue);
+    }
+}
+
+.menu-projects {
+    &.active {
+        background: var(--primary-red);
+        box-shadow: 4px 7px 16px var(--primary-red);
+    }
+}
+
+.menu-education {
+    &.active {
+        background: var(--primary-violet);
+        box-shadow: 4px 7px 16px var(--primary-violet);
+    }
+}
