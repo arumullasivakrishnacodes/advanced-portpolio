@@ -1,0 +1,36 @@
+.heading {
+    p {
+        font-family: var(--font-albert);
+        font-size: 38px;
+        font-weight: 700;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 28px;
+
+        &::after {
+            content: '';
+            width: 250px;
+            height: 3px;
+            background: var(--primary-blue);
+            display: block;
+            border-radius: 20px;
+        }
+    }
+}
+
+.certificates-container {
+    .single-certificate {
+        font-size: 18px;
+        font-family: var(--font-albert);
+        font-weight: 500;
+        color: var(--primary-blue);
+        background: #1374e945;
+        border: 1px solid var(--primary-blue);
+        width: fit-content;
+        height: fit-content;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+}
