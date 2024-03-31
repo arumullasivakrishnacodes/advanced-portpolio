@@ -5,7 +5,7 @@ import {MyCertificates} from '../Data'
 function Certification () {
     return (
       <div>
-        <div className="heading">
+        <div className="heading-cert">
           <p>Certifications</p>
         </div>
         <div className="certificates-container">

@@ -12,7 +12,7 @@ function Skills() {
 
   return (
     <div>
-      <div className="heading">
+      <div className="heading-skills">
         <p>Skills</p>
       </div>
       <div className="skills-all-container row">

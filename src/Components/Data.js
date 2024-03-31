@@ -31,7 +31,7 @@ export const SkillData = [
     }
 ]
 
-export const Experience = [
+export const ExperienceData = [
     {
         title: 'MiabyTanishq',
         role: 'Salesforce B2C Commerce Cloud Developer',

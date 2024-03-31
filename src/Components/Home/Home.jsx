@@ -4,7 +4,7 @@ import "../Home/Home.css";
 function Home() {
   return (
     <div>
-      <div className="heading">
+      <div className="heading-home">
         <p>About</p>
       </div>
       <div className="about-desc mb-3">
