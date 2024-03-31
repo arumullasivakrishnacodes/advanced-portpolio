@@ -19,38 +19,172 @@
     }
 }
 
-.sills-container-main {
-    .single-skills-container {
-        height: fit-content;
-        background: #fbc62059;
-        border: 1px solid var(--primary-orange);
-        border-radius: 15px;
-        padding: 16px;
+.skills-all-container {
+    width: 100%;
+    height: fit-content;
+    background: whitesmoke;
+    border-radius: 15px;
 
-        .heading-skill {
-            font-size: 18px;
+    .skills-title-container {
+        background: var(--white);
+        width: 100%;
+        height: fit-content;
+        border-radius: 15px;
+
+        .skill-title {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 14px;
+            cursor: pointer;
+            transition: all 0.6s ease;
+            font-size: 16px;
+            font-weight: 600;
             font-family: var(--font-albert);
-            color: var(--black);
-            font-weight: 800;
-            margin-bottom: 5%;
         }
 
-        .individual-skills-container {
-            display: flex;
-            gap: 14px;
-            flex-wrap: wrap;
+        .skill-title-active {
+            background: whitesmoke;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
 
-            .each-individual-skill {
-                width: fit-content;
-                height: fit-content;
-                padding: 8px;
-                font-size: 16px;
-                color: var(--black);
-                font-family: var(--font-albert);
-                font-weight: 500;
-                background: var(--white);
-                border-radius: 15px;
-                border: 1px solid var(--primary-orange);
+    .individual-skill-main-con  {
+        padding: 10%;
+        position: relative;
+
+        p {
+            font-size: 16px;
+            font-weight: 600;
+            font-family: var(--font-albert);
+        }
+
+        .skill-progressbar-outer {
+            width: 100%;
+            height: 10px;
+            border: none;
+            border-radius: 20px;
+            background: var(--white);
+            position: relative;
+
+            .skill-progressbar-inner {
+                width: 96%;
+                height: 100%;
+                /* background: var(--primary-burgundy); */
+                border-radius: 20px;
+            }
+        }
+
+        .skill-percent-popup {
+            width: 40px;
+            height: 26px;
+            border-radius: 20px;
+            /* background: var(--primary-burgundy); */
+            position: absolute;
+            left: 89%;
+            bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            font-weight: 600;
+            font-family: var(--font-albert);
+            color: var(--white);
+
+            .triangle {
+                width: 8px;
+                height: 8px;
+                /* background: var(--primary-burgundy); */
+                transform: rotate(45deg);
+                position: absolute;
+                bottom: -4px;
+            }
+        }
+    }
+    
+    .individual-skill-web {
+        .skill-progressbar-inner {
+            background: var(--primary-burgundy);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-burgundy);
+
+            .triangle {
+                background: var(--primary-burgundy);
+            }
+        }
+    }
+
+    .individual-skill-program {
+        .skill-progressbar-inner {
+            background: var(--primary-green);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-green);
+
+            .triangle {
+                background: var(--primary-green);
+            }
+        }
+    }
+
+    .individual-skill-devops {
+        .skill-progressbar-inner {
+            background: var(--primary-orange);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-orange);
+
+            .triangle {
+                background: var(--primary-orange);
+            }
+        }
+    }
+
+    .individual-skill-os {
+        .skill-progressbar-inner {
+            background: var(--primary-violet);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-violet);
+
+            .triangle {
+                background: var(--primary-violet);
+            }
+        }
+    }
+
+    .individual-skill-sfcc {
+        .skill-progressbar-inner {
+            background: var(--primary-red);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-red);
+
+            .triangle {
+                background: var(--primary-red);
+            }
+        }
+    }
+
+    .individual-skill-wordpress {
+        .skill-progressbar-inner {
+            background: var(--primary-blue);
+        }
+
+        .skill-percent-popup {
+            background: var(--primary-blue);
+
+            .triangle {
+                background: var(--primary-blue);
             }
         }
     }

@@ -1,27 +1,33 @@
 export const SkillData = [
     {
         title: 'Web Technologies',
-        skills: ['HTML', 'HTML5', 'CSS', 'CSS3', 'Javascript', 'ReactJs', 'jQuery', 'NodeJs']
+        skills: ['HTML|96', 'CSS|94', 'Javascript|92', 'ReactJs|85', 'jQuery|96', 'NodeJs|78'],
+        class: 'web'
     },
     {
         title: 'Programming & Services',
-        skills: ['Java', 'Python', 'MongoDB', 'JSON', 'Salesforce Commerce Cloud']
+        skills: ['Java|80', 'Python|92', 'MongoDB|88', 'JSON|96', 'Salesforce Commerce Cloud|80'],
+        class: 'program'
     },
     {
         title: 'Devops',
-        skills: ['Git', 'Docker']
+        skills: ['Git|94', 'Docker|77'],
+        class: 'devops'
     },
     {
-        title: 'Operating Syatems',
-        skills: ['Windows', 'Linux']
+        title: 'Operating Systems',
+        skills: ['Windows|85', 'Linux|76'],
+        class: 'os'
     },
     {
         title: 'Salesforce Commerce Cloud',
-        skills: ['SFCC Architecture', 'Scripting Languages', 'Frontend Technologies', 'SFCC Business Manager']
+        skills: ['SFCC Architecture|85', 'Scripting Languages|90', 'Frontend Technologies|98', 'SFCC Business Manager|83'],
+        class: 'sfcc'
     },
     {
         title: 'Wordpress',
-        skills: ['Configuration', 'Theme Development', 'Plugin Development', 'HTML/CSS/Javascript','PHP', 'Responsive Design', 'SEO Basics', 'Performance Optimization', 'UX Design']
+        skills: ['Configuration|88', 'Theme Development|88', 'Plugin Development|74', 'HTML/CSS/Javascript|98','PHP|75', 'Responsive Design|96', 'SEO Basics|81', 'Performance Optimization|88', 'UX Design|98'],
+        class: 'wordpress'
     }
 ]
 
