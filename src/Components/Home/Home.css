@@ -172,3 +172,33 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .heading-home {
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .about-desc {
+        font-size: 12px;
+    }
+
+    .what-i-do-container {
+        .heading {
+            font-size: 24px;
+        }
+    }
+
+    .skills-divide-row {
+        height: fit-content !important;
+
+        .skill-heading {
+            font-size: 16px !important;
+        }
+
+        .skill-description {
+            font-size: 12px !important;
+        }
+    }
+}

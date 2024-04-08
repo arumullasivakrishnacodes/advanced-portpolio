@@ -19,7 +19,7 @@ function Home() {
       <div className="what-i-do-container">
         <div className="heading mb-3">What I DO!</div>
         <div className="my-working-skils row">
-          <div className="col-6 skills-divide-row">
+          <div className="col-lg-6 col-12 skills-divide-row">
             <div className="ui-ux-design-container row">
               <div className="col-2 skill-icons-highlight">
                 <i class="bi bi-brush-fill"></i>
@@ -36,7 +36,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-6 skills-divide-row">
+          <div className="col-lg-6 col-12 skills-divide-row">
             <div className="webdevelopment-container row">
               <div className="col-2 skill-icons-highlight">
                 <i class="bi bi-laptop"></i>
@@ -53,7 +53,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-6 skills-divide-row">
+          <div className="col-lg-6 col-12 skills-divide-row">
             <div className="digital-marketing-container row">
               <div className="col-2 skill-icons-highlight">
               <i class="bi bi-briefcase"></i>
@@ -70,7 +70,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-6 skills-divide-row">
+          <div className="col-lg-6 col-12 skills-divide-row">
             <div className="seo-optimization-container row">
               <div className="col-2 skill-icons-highlight">
                 <i class="bi bi-search"></i>
