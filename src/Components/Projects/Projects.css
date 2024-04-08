@@ -140,3 +140,25 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .projects-details-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-technologies-container {
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            display: none;
+        }
+
+        &::-webkit-scrollbar-track {
+            display: none;
+        }
+    }
+}

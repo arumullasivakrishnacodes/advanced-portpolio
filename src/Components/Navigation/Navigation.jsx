@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import './Navigation.css';
 import { NavLink } from "react-router-dom";
+import profilephoto from '../../Assets/Images/My-photo.png';
+import About from '../About/About'
 
 function Navigation () {
+  const [sliderComponent, setSliderComponent] = useState(false);
+
+  const handleProfileSlider = () => {
+    setSliderComponent(!sliderComponent);
+  }
+
     return (
       <div>
       <div className="Nav-menu-container d-none d-lg-flex">
@@ -56,9 +64,17 @@ function Navigation () {
         <i class="bi bi-gear-wide-connected"></i>
         </NavLink>
       </div>
-      <div className="d-lg-none about-main-section-container">
-
+      <div className="d-lg-none about-main-section-container d-flex justify-content-between align-items-center">
+        <div className="name-profile-container">
+          <img src={profilephoto} alt="" />
+          <div className="name-role-container">
+            <h3>Arumulla SivaKrishna</h3>
+            <p>FullStack Developer</p>
+          </div>
+        </div>
+        <div className="profile-shorthand" onClick={handleProfileSlider}>A</div>
       </div>
+      <div className={`d-lg-none about-slider-main-component ${sliderComponent ? '' : 'd-none'}`}><button className="profile-slider-close" onClick={handleProfileSlider}><i class="bi bi-x"></i></button><About /></div>
       </div>
       
     );
