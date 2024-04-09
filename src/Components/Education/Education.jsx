@@ -4,6 +4,9 @@ import '../Education/Education.css';
 function Education () {
     return (
       <div style={{position: "relative"}}>
+        <div className="heading-education">
+          <p>Education</p>
+        </div>
         <div className="education-main-container">
           <div className="each-education-container">
             <h3>Bachelor of Technology in Mechanical Engineering</h3>

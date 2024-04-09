@@ -34,3 +34,16 @@
         border-radius: 15px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .heading-cert {
+        p {
+            font-size: 24px !important;
+        }
+    }
+
+    .single-certificate {
+        font-size: 14px !important;
+        padding: 6px 14px !important;
+    }
+}

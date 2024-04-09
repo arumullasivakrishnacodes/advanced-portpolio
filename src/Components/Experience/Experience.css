@@ -1,3 +1,24 @@
+.heading-experience {
+    p {
+        font-family: var(--font-albert);
+        font-size: 38px;
+        font-weight: 700;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 28px;
+
+        &::after {
+            content: '';
+            width: 250px;
+            height: 3px;
+            background: var(--primary-green);
+            display: block;
+            border-radius: 20px;
+        }
+    }
+}
+
 .experience-main-component {
     column-gap: 12px;
     padding: 12px;
@@ -122,6 +143,53 @@
                 i {
                     color: var(--primary-green);
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading-experience {
+        p {
+            font-size: 24px !important;
+        }
+        
+    }
+
+    .experience-main-component {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .experience-title-container {
+        width: 100% !important;
+        display: flex;
+
+        .experience-each-title {
+            height: 37px !important;
+            font-size: 13px !important;
+        }
+    }
+
+    .experience-points-description-con {
+        width: 100% !important;
+
+        .experience-technology {
+            font-size: 14px !important;
+            padding: 6px 12px !important;
+        }
+
+        .experience-year {
+            font-size: 12px !important;
+            padding: 4px 12px !important;
+        }
+
+        .each-exp-eachpoints-container {
+            font-size: 12px !important;
+            margin-bottom: 8px !important;
+
+            i {
+                font-size: 12px !important;
             }
         }
     }

@@ -189,3 +189,54 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .heading-skills {
+        p {
+            font-size: 24px !important;
+        }
+    }
+
+    .skills-title-container {
+        flex-direction: row !important;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            display: none;
+        }
+
+        &::-webkit-scrollbar-track {
+            display: none;
+        }
+
+        .skill-title {
+            font-size: 13px !important;
+            min-width: max-content !important;
+            padding: 4px 16px !important;
+        }
+    }
+
+    .individual-skill-container {
+        margin-bottom: 4px !important;
+
+        p {
+            font-size: 12px !important;
+            margin-bottom: 6px !important;
+        }
+
+        .skill-progressbar-outer {
+            height: 4px !important;
+        }
+
+        .skill-percent-popup {
+            font-size: 8px !important;
+            width: 30px !important;
+            height: 16px !important;
+            bottom: 14px !important;
+        }
+    }
+}

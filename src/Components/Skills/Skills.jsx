@@ -16,7 +16,7 @@ function Skills() {
         <p>Skills</p>
       </div>
       <div className="skills-all-container row">
-        <div className="col-4 p-0">
+        <div className="col-lg-4 col-12 p-0">
           <div className="skills-title-container d-flex flex-column">
             {SkillData.map((eachtitle, index) => {
               return (
@@ -34,7 +34,7 @@ function Skills() {
             })}
           </div>
         </div>
-        <div className="col-8 p-0">
+        <div className="col-lg-8 col-12 p-0">
           {SkillData.map((skillitem, index) => {
             return (
               <div key={index} className={`individual-skill-main-con ${Number(selectskill) === index ? '': 'd-none'}`}>
