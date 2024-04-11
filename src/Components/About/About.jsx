@@ -1,6 +1,7 @@
 import React from "react";
 import profilephoto from '../../Assets/Images/My-photo.png';
-import '../About/About.css'
+import '../About/About.css';
+import MyResume from '../../Assets/arumullasivakrishna.pdf'
 
 function About () {
     return (
@@ -49,7 +50,7 @@ function About () {
                 </div>
             </div>
             <div className="resume-con">
-                <button>Resume <i class="bi bi-download"></i></button>
+                <a href={MyResume} download><button>Resume <i class="bi bi-download"></i></button></a>
             </div>
 
         </div>

@@ -132,6 +132,22 @@
     justify-content: center;
     align-items: center;
 
+    a {
+        width: 60%;
+        height: 100%;
+        background: var(--primary-burgundy);
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        font-size: 20px;
+        border: var(--none);
+        outline: var(--none);
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
     button {
         width: 60%;
         height: 100%;
