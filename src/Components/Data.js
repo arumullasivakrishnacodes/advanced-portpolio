@@ -121,8 +121,17 @@ export const MyProjects = [
         description: 'Website having all about myself Personal portpolio',
         technologies: ['React', 'HTML & CSS', 'Javascript'],
         image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
-        image1: `${process.env.PUBLIC_URL}/Assets/Images/portpolio-website.png`,
+        image1: `${process.env.PUBLIC_URL}/Assets/Images/Myportpolio.png`,
         redirect: 'https://arumullasivakrishna.netlify.app/'
+    },
+    {
+        tech: 'React',
+        title: 'My Portpolio Basic',
+        description: 'Website having all about myself Personal portpolio',
+        technologies: ['React', 'HTML & CSS', 'Javascript'],
+        image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
+        image1: `${process.env.PUBLIC_URL}/Assets/Images/portpolio-website.png`,
+        redirect: 'https://arumullasivakrishnabasic.netlify.app/'
     },
     {
         tech: 'Wordpress',
