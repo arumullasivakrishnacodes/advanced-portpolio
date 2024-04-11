@@ -105,6 +105,10 @@ export const MyprojectTechnologies = [
         image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
     },
     {
+        tech: 'Javascript',
+        image: `${process.env.PUBLIC_URL}/Assets/Images/js-logo.webp`,
+    },
+    {
         tech: 'jQuery',
         image: `${process.env.PUBLIC_URL}/Assets/Images/jquery-logo.png`,
     },
@@ -123,6 +127,24 @@ export const MyProjects = [
         image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
         image1: `${process.env.PUBLIC_URL}/Assets/Images/Myportpolio.png`,
         redirect: 'https://arumullasivakrishna.netlify.app/'
+    },
+    {
+        tech: 'Javascript',
+        title: 'AddToCart Functionality',
+        description: 'Website having productList and AddToCart Functionality',
+        technologies: ['HTML & CSS', 'Javascript'],
+        image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
+        image1: `${process.env.PUBLIC_URL}/Assets/Images/addtocartfun.png`,
+        redirect: 'https://skaddtocart.netlify.app/'
+    },
+    {
+        tech: 'Javascript',
+        title: 'Form Validation',
+        description: 'Website having Register Form Validation by using Javascript',
+        technologies: ['HTML & CSS', 'Javascript'],
+        image: `${process.env.PUBLIC_URL}/Assets/Images/react-logo.png`,
+        image1: `${process.env.PUBLIC_URL}/Assets/Images/formvalidation.png`,
+        redirect: 'https://skformvalidation.netlify.app/'
     },
     {
         tech: 'React',
