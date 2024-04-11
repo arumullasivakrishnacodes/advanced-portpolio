@@ -40,7 +40,7 @@
     .my-working-skils {
         .skills-divide-row {
             padding: 12px;
-            height: 318px;
+            height: fit-content;
 
             .ui-ux-design-container {
                 width: 100%;
